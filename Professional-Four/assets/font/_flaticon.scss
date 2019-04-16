@@ -1,0 +1,96 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 15/04/2019 15:08
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-facebook-logo-button:before { content: "\f100"; }
+.flaticon-twitter:before { content: "\f101"; }
+.flaticon-heart:before { content: "\f102"; }
+.flaticon-bird:before { content: "\f103"; }
+.flaticon-pencil:before { content: "\f104"; }
+.flaticon-megaphone:before { content: "\f105"; }
+.flaticon-up-arrow:before { content: "\f106"; }
+.flaticon-pinterest-logotype-circle:before { content: "\f107"; }
+.flaticon-maps-and-flags:before { content: "\f108"; }
+.flaticon-smartphone-call:before { content: "\f109"; }
+.flaticon-mail:before { content: "\f10a"; }
+.flaticon-facebook-logo:before { content: "\f10b"; }
+.flaticon-google-plus-logo:before { content: "\f10c"; }
+.flaticon-twitter-logo-silhouette:before { content: "\f10d"; }
+.flaticon-pinterest-logo:before { content: "\f10e"; }
+.flaticon-behance-logo:before { content: "\f10f"; }
+.flaticon-dribbble-logo:before { content: "\f110"; }
+.flaticon-scroll-arrow-to-left:before { content: "\f111"; }
+.flaticon-scroll-arrow-to-right:before { content: "\f112"; }
+.flaticon-camera-retro:before { content: "\f113"; }
+.flaticon-speed:before { content: "\f114"; }
+.flaticon-brifcase:before { content: "\f115"; }
+.flaticon-twitter-logo-button:before { content: "\f116"; }
+.flaticon-linkedin:before { content: "\f117"; }
+.flaticon-vimeo:before { content: "\f118"; }
+.flaticon-dribbble-logo-1:before { content: "\f119"; }
+.flaticon-envelope:before { content: "\f11a"; }
+.flaticon-google-plus-social-logotype:before { content: "\f11b"; }
+    
+    $font-Flaticon-facebook-logo-button: "\f100";
+    $font-Flaticon-twitter: "\f101";
+    $font-Flaticon-heart: "\f102";
+    $font-Flaticon-bird: "\f103";
+    $font-Flaticon-pencil: "\f104";
+    $font-Flaticon-megaphone: "\f105";
+    $font-Flaticon-up-arrow: "\f106";
+    $font-Flaticon-pinterest-logotype-circle: "\f107";
+    $font-Flaticon-maps-and-flags: "\f108";
+    $font-Flaticon-smartphone-call: "\f109";
+    $font-Flaticon-mail: "\f10a";
+    $font-Flaticon-facebook-logo: "\f10b";
+    $font-Flaticon-google-plus-logo: "\f10c";
+    $font-Flaticon-twitter-logo-silhouette: "\f10d";
+    $font-Flaticon-pinterest-logo: "\f10e";
+    $font-Flaticon-behance-logo: "\f10f";
+    $font-Flaticon-dribbble-logo: "\f110";
+    $font-Flaticon-scroll-arrow-to-left: "\f111";
+    $font-Flaticon-scroll-arrow-to-right: "\f112";
+    $font-Flaticon-camera-retro: "\f113";
+    $font-Flaticon-speed: "\f114";
+    $font-Flaticon-brifcase: "\f115";
+    $font-Flaticon-twitter-logo-button: "\f116";
+    $font-Flaticon-linkedin: "\f117";
+    $font-Flaticon-vimeo: "\f118";
+    $font-Flaticon-dribbble-logo-1: "\f119";
+    $font-Flaticon-envelope: "\f11a";
+    $font-Flaticon-google-plus-social-logotype: "\f11b";
