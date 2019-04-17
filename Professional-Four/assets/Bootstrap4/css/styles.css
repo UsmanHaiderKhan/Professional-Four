@@ -2,8 +2,18 @@
         Font-Family's Start
   =================================*/
 @font-face {
+    font-family: 'gotham-pro-bold';
+    src: url('../../Fonts/gotham-pro-bold.otf') format('opentype');
+}
+
+@font-face {
     font-family: 'gotham-pro-medium';
     src: url('../../Fonts/gotham-pro-medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'gotham-pro-regular';
+    src: url('../../Fonts/gotham-pro-regular.otf') format('opentype');
 }
 
 @font-face {
@@ -41,6 +51,16 @@ html, body {
     background: #f5f7fa;
     padding: 20px 36px 0px 90px;
 }
+
+.top-link-style {
+    color: #506a85;
+    text-decoration: none;
+}
+
+    .top-link-style:hover {
+        color: #506a85;
+        text-decoration: none;
+    }
 
 .welcome-text {
     color: #ffffff;
@@ -93,7 +113,13 @@ html, body {
     background-repeat: no-repeat;
 }
 
-
+.some {
+    position: relative;
+    padding: 0px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 
 #home .nav-bg-color {
@@ -137,6 +163,7 @@ html, body {
 }
 
 #home .navbar {
+    z-index: 99999;
     padding: 0 0 17px 0;
 }
 
@@ -147,10 +174,10 @@ html, body {
 #home .active .nav-link {
     position: relative;
     color: #079fb1 !important;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
     #home .active .nav-link::after {
@@ -176,8 +203,6 @@ html, body {
     padding: 80px 0;
 }
 
-
-
 #home .main-bg-banner {
     position: relative;
     padding: 0px 0;
@@ -187,7 +212,7 @@ html, body {
 }
 
 #home .content-setting {
-    padding: 232px 0;
+    padding: 308px 0;
 }
 
 #home .main-banner-desc {
@@ -276,7 +301,9 @@ html, body {
 
     .btn-start:hover {
         text-decoration: none;
+        background: transparent;
         color: #fafcfe;
+        border: 1px solid #fafcfe;
     }
 
 .btn-learn {
@@ -298,6 +325,8 @@ html, body {
     .btn-learn:hover {
         text-decoration: none;
         color: #fafcfe;
+        border: 1px solid #02b8cd;
+        background-color: #02b8cd;
     }
 
 
@@ -347,12 +376,13 @@ html, body {
 }
 
 #home .icon-position-relative {
+    z-index: 9;
     position: relative;
 }
 
 #home .outer-circle {
-    top: 135px;
-    left: 46.5%;
+    bottom: -21px;
+    left: 47.5%;
     position: absolute;
     width: 74px;
     height: 74px;
@@ -364,7 +394,8 @@ html, body {
 #home .icon-bg-color {
     width: 66px;
     height: 64px;
-    padding: 18px;
+    line-height: 33px;
+    padding: 14px 16px 14px 23px;
     border-radius: 50%;
     background: #f4f5f9;
 }
@@ -373,6 +404,29 @@ html, body {
     border: 1px solid #fff;
 }
 
+#home [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    margin-left: 0px;
+    color: #ffffff;
+    background: #02b8cd;
+    padding: 20px;
+}
+
+#home .owl-theme .owl-nav {
+    position: relative;
+    margin-top: 10px;
+}
+
+#home .owl-carousel .owl-nav button.owl-next {
+    right: 60px;
+    bottom: 570px;
+    position: absolute;
+}
+
+#home .owl-carousel .owl-nav button.owl-prev {
+    left: 60px;
+    bottom: 570px;
+    position: absolute;
+}
 /*================================= 
         What Section Styling
   =================================*/
@@ -435,10 +489,13 @@ html, body {
     #history .history-bg-color {
         text-align: center;
         background-color: rgba(0, 0, 0, 0.671);
-        padding: 80px 70px;
+        padding: 80px 70px 115px 70px;
     }
 
-
+    #history .images-setting {
+        margin-top: -56px;
+        margin-left: 30px;
+    }
 
 
     #history .brief-text {
@@ -448,7 +505,7 @@ html, body {
     }
 
     #history .brief-desc {
-        font-size: 20px;
+        font-size: 17px;
         color: #ffffff;
         font-weight: 400;
         font-family: 'Lato', sans-serif;
@@ -460,6 +517,12 @@ html, body {
     padding: 120px 0;
     background: #f2f5f7;
 }
+
+    #work .work-padding {
+        padding: 0 100px;
+    }
+
+
 
     #work .work-text {
         font-size: 28px;
@@ -476,7 +539,7 @@ html, body {
     }
 
     #work .work-heading {
-        font-size: 24px;
+        font-size: 21px;
         color: #506a85;
         font-weight: bold;
         font-family: 'Lato', sans-serif;
@@ -489,6 +552,192 @@ html, body {
         font-family: 'Source Sans Pro', sans-serif;
     }
 
+    #work .owl-theme .owl-nav.disabled + .owl-dots {
+        margin-top: 88px;
+    }
+
+    #work .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+        width: 14px;
+        height: 14px;
+        background: #02b8cd;
+    }
+
+    #work .owl-theme .owl-dots .owl-dot span {
+        width: 14px;
+        height: 14px;
+        background: #a1afbe;
+    }
+/*================================= 
+      Team Section Styling
+  =================================*/
+#team {
+    padding: 100px 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+    #team .professional-team-text {
+        font-size: 30px;
+        color: #f2f2f2;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.4);
+        -moz-transform: matrix( 1.2,0,0,1.19977802441731,0,0);
+        -webkit-transform: matrix( 1.2,0,0,1.19977802441731,0,0);
+        -ms-transform: matrix( 1.2,0,0,1.19977802441731,0,0);
+    }
+
+    #team .team-desc {
+        position: relative;
+        font-size: 18px;
+        color: #f2f2f2;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.33);
+    }
+
+        #team .team-desc::after {
+            content: '';
+            position: absolute;
+            width: 9%;
+            background: #e8eaeb;
+            height: 2px;
+            bottom: -26px;
+            left: 46%;
+        }
+
+    #team .team-member-name {
+        font-size: 20px;
+        color: #29323c;
+        font-family: 'gotham-pro-bold';
+    }
+
+    #team .desgination-text {
+        font-size: 16px;
+        color: #495159;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    #team .card {
+        border: 0;
+    }
+
+    #team .card-body {
+        text-align: center;
+        background: #c4c8cb;
+    }
+
+    #team [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-family: Flaticon;
+        font-size: 30px;
+        font-style: normal;
+        margin-left: 3px;
+    }
+
+    #team .flaticon-style {
+        color: #313233;
+        text-decoration: none;
+    }
+
+        #team .flaticon-style:hover {
+            color: #313233;
+            text-decoration: none;
+        }
+/*================================= 
+      Client Section Styling
+  =================================*/
+#clients {
+    padding: 67px 67px 50px 67px;
+    background: #f5f5f5;
+}
+/*================================= 
+     Contact Section Styling
+  =================================*/
+#contact .bg-contact-banner {
+    padding: 50px 129px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.touch-text {
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#contact .col-form-label {
+    font-size: 16px;
+    color: #f6f6f6;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#contact .form-control {
+    font-size: 16px;
+    color: #abcdd9;
+    height: 48px;
+    border-radius: 3px !important;
+    background: transparent !important;
+    border: 1px solid #abcdd9 !important;
+}
+
+#contact .textarea-control {
+    padding: 15px;
+    font-size: 16px;
+    color: #abcdd9;
+    width: 100%;
+    resize: none;
+    border-radius: 3px !important;
+    background: transparent !important;
+    border: 1px solid #abcdd9 !important;
+}
+
+#contact .btn-submit {
+    font-size: 15px;
+    width: 142px;
+    height: 52px;
+    border-width: 1px;
+    border-color: #abcdd9;
+    border-style: solid;
+    border-radius: 3px;
+    background: transparent;
+    color: #e8e8e8;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-bg-color {
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+.footer-font {
+    font-size: 20px;
+    color: #29323c;
+    margin-top: 13px;
+    font-family: 'gotham-pro-regular';
+}
+
+.stay-text {
+    position: absolute;
+    font-size: 16px;
+    color: #29323c;
+    text-transform: capitalize;
+    font-family: 'gotham-pro-medium';
+    bottom: 11px;
+    left: 221px;
+}
+
+footer [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-size: 33px;
+    margin-left: 10px;
+}
 
 /*================================= 
           Read More Styling
@@ -522,6 +771,10 @@ html, body {
 
 .mt--100 {
     margin-top: -100px;
+}
+
+.mt--90 {
+    margin-top: -90px;
 }
 
 .mt--60 {
@@ -909,6 +1162,10 @@ html, body {
     margin-top: 10px;
 }
 
+.mt-8 {
+    margin-top: 8px;
+}
+
 .mt-6 {
     margin-top: 6px;
 }
@@ -991,22 +1248,22 @@ button:focus {
 }
 
 .btn-load-more {
-    width: 153px;
-    height: 45px;
-    font-size: 16px;
-    color: #ffffff;
+    width: 239px;
+    height: 47px;
+    font-size: 15px;
+    color: #e8e8e8;
     font-weight: bold;
-    border-radius: 0;
+    border-radius: 28px;
     border: none;
     cursor: pointer;
-    text-transform: capitalize;
-    border-width: 2px;
-    border-color: rgb(250, 252, 254);
+    text-transform: uppercase;
+    border-width: 1px;
+    border-color: rgb(242, 242, 242);
     border-style: solid;
-    border-radius: 3px;
     background: transparent;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
+
 
 .btn:focus {
     outline: none !important;
@@ -1020,6 +1277,12 @@ button:focus {
 .btn:focus, .btn.focus {
     outline: 0;
     box-shadow: none !important;
+}
+
+.image-radius {
+    width: 113px;
+    height: 113px;
+    border-radius: 50%;
 }
 /*------ Scrolling Css --------*/
 /* width */
