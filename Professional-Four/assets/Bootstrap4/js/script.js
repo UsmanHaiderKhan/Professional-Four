@@ -15,7 +15,7 @@ $(function () {
                 '<span class="remaining-contents"><span class=" p-3">' +
                 hide_content +
                 '</span>' +
-                '<div class="text-center mt-27 ml-24 media-ml-33">' +
+                '<div class="text-center mt-27 ml-23 media-ml-30">' +
                 '<a href="" class="morelinksss text-center btn btn-more" style="display:block;">' +
                 moretext +
                 '</a>' + '</div>' + '</span>';;
@@ -88,8 +88,8 @@ $(function () {
 $(document).ready(function () {
 
     $('.loadMore').loadMoreResults({
-        displayedItems: 6,
-        showItems: 3
+        displayedItems: 4,
+        showItems: 4
     });
 
 
@@ -98,28 +98,80 @@ $(document).ready(function () {
 
 /*===================== Owl Carousel Slider ======================*/
 $(function () {
-    $('#owl-one').on('initialized.owl.carousel changed.owl.carousel',
-        function (e) {
-            if (!e.namespace) {
-                return;
+    $('#owl-two').owlCarousel({
+        loop: false,
+        margin: 0,
+        dots: false,
+        nav: true,
+        item: 1,
+        navText: ["<i class='flaticon-scroll-arrow-to-left'></i>", "<i class='flaticon-scroll-arrow-to-right'></i>"],
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                dots: false,
+                nav: true
+            },
+            400: {
+                items: 1,
+                dots: false,
+                nav: true
+            },
+            600: {
+                items: 1,
+                dots: false,
+                nav: true
+            },
+            800: {
+                items: 1,
+                dots: false,
+                nav: true
+            },
+            1000: {
+                items: 1,
+                dots: false,
+                nav: true
             }
-            var carousel = e.relatedTarget;
-            $('.service-slider-counter')
-                .text(carousel.relative(carousel.current()) + 1);
-        }).owlCarousel({
-            items: 1,
-            loop: false,
-            margin: 0,
-            dots: false,
-            nav: true,
-            navText: ["<i class='flaticon-left'></i>", "<i class='flaticon-next'></i>"],
-            dotsContainer: '#ServiceCustomDots'
-            /*autoplay:true,
-              autoplayTimeout:3000*/
-            /*nav:true*/
-        });
+        }
+    });
 });
-
+$(function () {
+    $('#owl-one').owlCarousel({
+        loop: true,
+        margin: 20,
+        dots: false,
+        nav: false,
+        item: 5,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                dots: false,
+                nav: false
+            },
+            400: {
+                items: 1,
+                dots: false,
+                nav: false
+            },
+            600: {
+                items: 2,
+                dots: false,
+                nav: false
+            },
+            800: {
+                items: 2,
+                dots: true,
+                nav: false
+            },
+            1000: {
+                items: 5,
+                dots: false,
+                nav: false
+            }
+        }
+    });
+});
 $(function () {
     $('.owl-carousel').owlCarousel({
         loop: true,
