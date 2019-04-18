@@ -49,7 +49,7 @@ html, body {
   =================================*/
 #top-nav {
     background: #f5f7fa;
-    padding: 20px 36px 0px 90px;
+    padding: 15px 59px 2px 90px;
 }
 
 .top-link-style {
@@ -86,7 +86,7 @@ html, body {
 
 .email-text {
     color: #566f89;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     margin-bottom: 0;
     font-family: 'Source Sans Pro', sans-serif;
@@ -94,7 +94,7 @@ html, body {
 
 .phone-number-text {
     color: #566f89;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -108,6 +108,13 @@ html, body {
     Navbar Section Styling
   =================================*/
 .full-bg-banner {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#home {
+    position: relative;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -354,14 +361,14 @@ html, body {
 
 #home .left-border {
     border-left-color: #ffffff !important;
-    border-left-width: 1580px !important;
+    border-left-width: 1349px !important;
     border-top-width: 270px !important;
     left: 0;
 }
 
 #home .right-border {
     border-right-color: #ffffff !important;
-    border-right-width: 1580px !important;
+    border-right-width: 1349px !important;
     border-top-width: 270px !important;
     right: 0;
 }
@@ -371,7 +378,7 @@ html, body {
     border: 0 solid transparent;
     height: 0;
     position: absolute;
-    top: 120%;
+    top: 78%;
     width: 0;
 }
 
@@ -482,7 +489,7 @@ html, body {
 #history {
     padding: 100px 100px;
     background-size: cover;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
 }
 
@@ -737,7 +744,18 @@ html, body {
 footer [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
     font-size: 33px;
     margin-left: 10px;
+    color: #525961;
 }
+
+footer .footer-link-style {
+    color: #525961;
+    text-decoration: none;
+}
+
+    footer .footer-link-style:hover {
+        color: #525961;
+        text-decoration: none;
+    }
 
 /*================================= 
           Read More Styling
@@ -1209,8 +1227,9 @@ footer [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flati
 }
 
 .ml-23 {
-    margin-left: 23px;
+    margin-left: 23%;
 }
+
 /*================ Padding-Top ===================*/
 .pt-120 {
     padding-top: 120px;
@@ -1321,27 +1340,730 @@ button:focus {
 }
 
 @media screen and (max-width: 1024px) {
+    /*#top-nav {
+        padding: 15px 0px 2px 94px;
+    }*/
+    #home .nav-padding {
+        padding: 20px 44px 0px 43px;
+    }
+
+    #top-nav {
+        padding: 14px 55px 2px 46px;
+    }
+
+    .phone-number-text {
+        font-size: 11px;
+    }
+
+    .email-text {
+        font-size: 11px;
+    }
+
+    .ml-5 {
+        margin-left: 1.6rem !important;
+    }
+
+    #home .left-border {
+        border-left-width: 1024px !important;
+    }
+
+    #home .right-border {
+        border-right-width: 1024px !important;
+    }
+
+    #home .main-banner-text {
+        letter-spacing: 4px;
+        font-size: 32px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 20px;
+    }
+
+    #home .navbar-nav .nav-link {
+        padding: 8px 8px 5px 8px;
+    }
+
+    .btn-start {
+        width: 180px;
+        height: 50px;
+        font-size: 15px;
+        line-height: 34px;
+    }
+
+    .btn-learn {
+        width: 180px;
+        height: 50px;
+        font-size: 15px;
+        line-height: 34px;
+    }
+
+    #home .borders {
+        top: 80%;
+    }
+
+    .what-text {
+        font-size: 22px;
+    }
+
+    .what-text-do-desc {
+        font-size: 18px;
+    }
+
+    #what .heading-text {
+        font-size: 20px;
+    }
+
+    #history {
+        padding: 100px 33px;
+    }
+
+        #history .history-bg-color {
+            padding: 80px 44px 115px 44px;
+        }
+
+        #history .images-setting {
+            margin-left: 4px;
+        }
+
+        #history .brief-text {
+            font-size: 36px;
+        }
+
+        #history .brief-desc {
+            font-size: 15px;
+        }
+
+    #work .work-text {
+        font-size: 26px;
+    }
+
+    #work .work-desc {
+        font-size: 17px;
+    }
+
+    #work .work-heading {
+        font-size: 18px;
+    }
+
+    #team .professional-team-text {
+        font-size: 26px;
+    }
+
+    #team .team-desc {
+        font-size: 16px;
+    }
+
+    #team {
+        padding: 70px 40px;
+    }
+
+        #team .team-member-name {
+            font-size: 16px;
+        }
+
+        #team .desgination-text {
+            font-size: 14px;
+        }
+
+        #team [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+            font-family: Flaticon;
+            font-size: 26px;
+        }
+
+    .btn-load-more {
+        width: 180px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    #contact .bg-contact-banner {
+        padding: 50px 41px;
+    }
+
+    .touch-text {
+        font-size: 26px;
+    }
+
+    .media-height {
+        height: 50vh;
+    }
+
+    .footer-font {
+        font-size: 18px;
+    }
+
+    .stay-text {
+        bottom: 13px;
+        left: 147px;
+    }
 }
 
 @media screen and (max-width: 900px) {
+    #top-nav {
+        padding: 15px 32px 2px 45px;
+    }
+
+    #home .active .nav-link::after {
+        content: '';
+        left: 45%;
+        width: 10%;
+    }
+
+    .phone-number-text {
+        font-size: 12px;
+    }
+
+    .email-text {
+        font-size: 12px;
+    }
+
+    .ml-5 {
+        margin-left: 1.6rem !important;
+    }
+
+    #home .left-border {
+        border-left-width: 900px !important;
+    }
+
+    #home .right-border {
+        border-right-width: 900px !important;
+    }
+
+    #home .outer-circle {
+        bottom: -31px;
+        left: 45.5%;
+    }
+
+    #home .main-banner-text {
+        letter-spacing: 1px;
+        font-size: 30px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 20px;
+    }
+
+    #home [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        padding: 10px;
+    }
+
+    #home .content-setting {
+        padding: 250px 0;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-next {
+        bottom: 520px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-prev {
+        bottom: 520px;
+    }
+
+
+
+    .media-do-mt {
+        margin-top: 70px;
+    }
+
+    .media-ml-30 {
+        margin-left: 30%;
+    }
+
+    #history {
+        padding: 95px 90px;
+    }
+
+        #history .images-setting {
+            margin-left: 38px;
+        }
+
+    #work {
+        padding: 60px 0;
+    }
+
+    #team .professional-team-text {
+        font-size: 24px;
+    }
+
+    #team .team-desc {
+        font-size: 14px;
+    }
+
+    .mt-99 {
+        margin-top: 60px;
+    }
+
+    #team .team-member-name {
+        font-size: 20px;
+    }
+
+    #team .desgination-text {
+        font-size: 16px;
+    }
+
+    .media-height {
+        height: 47vh;
+    }
+
+    #contact .col-form-label {
+        font-size: 12px;
+    }
+
+    .stay-text {
+        left: 30px;
+    }
 }
 
 @media screen and (max-width: 800px) {
+    #top-nav {
+        padding: 15px 32px 2px 45px;
+    }
+
+    .phone-number-text {
+        font-size: 12px;
+    }
+
+    .email-text {
+        font-size: 12px;
+    }
+
+    .ml-5 {
+        margin-left: 1.6rem !important;
+    }
+
+    #home .left-border {
+        border-left-width: 799px !important;
+    }
+
+    #home .right-border {
+        border-right-width: 799px !important;
+    }
+
+    #home .outer-circle {
+        bottom: -31px;
+        left: 45.5%;
+    }
+
+    #home .main-banner-text {
+        letter-spacing: 1px;
+        font-size: 30px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 20px;
+    }
+
+    #home [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        padding: 10px;
+    }
+
+    #home .content-setting {
+        padding: 250px 0;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-next {
+        bottom: 520px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-prev {
+        bottom: 520px;
+    }
+
+
+
+    .media-do-mt {
+        margin-top: 70px;
+    }
+
+    .media-ml-30 {
+        margin-left: 30%;
+    }
+
+    #history {
+        padding: 95px 90px;
+    }
+
+        #history .images-setting {
+            margin-left: 38px;
+        }
+
+    #work {
+        padding: 60px 0;
+    }
+
+    #team .professional-team-text {
+        font-size: 24px;
+    }
+
+    #team .team-desc {
+        font-size: 14px;
+    }
+
+    .mt-99 {
+        margin-top: 60px;
+    }
+
+    #team .team-member-name {
+        font-size: 20px;
+    }
+
+    #team .desgination-text {
+        font-size: 16px;
+    }
+
+    .media-height {
+        height: 53vh;
+    }
+
+    #contact .col-form-label {
+        font-size: 12px;
+    }
+
+    .stay-text {
+        left: 30px;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    #top-nav {
+        padding: 15px 32px 2px 45px;
+    }
+
+
+
+    .phone-number-text {
+        font-size: 12px;
+    }
+
+    .email-text {
+        font-size: 12px;
+    }
+
+    .ml-5 {
+        margin-left: 1.6rem !important;
+    }
+
+    #home .left-border {
+        border-left-width: 767px !important;
+    }
+
+    #home .right-border {
+        border-right-width: 767px !important;
+    }
+
+    #home .main-banner-text {
+        letter-spacing: 1px;
+        font-size: 30px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 20px;
+    }
+
+    #home [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        padding: 10px;
+    }
+
+    #home .content-setting {
+        padding: 250px 0;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-next {
+        bottom: 520px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-prev {
+        bottom: 520px;
+    }
+
+
+
+    .media-do-mt {
+        margin-top: 70px;
+    }
+
+    .media-ml-30 {
+        margin-left: 30%;
+    }
+
+    #history {
+        padding: 95px 90px;
+    }
+
+        #history .images-setting {
+            margin-left: 38px;
+        }
+
+    #work {
+        padding: 60px 0;
+    }
+
+    #team .professional-team-text {
+        font-size: 24px;
+    }
+
+    #team .team-desc {
+        font-size: 14px;
+    }
+
+    .mt-99 {
+        margin-top: 60px;
+    }
+
+    #team .team-member-name {
+        font-size: 20px;
+    }
+
+    #team .desgination-text {
+        font-size: 16px;
+    }
+
+    .media-height {
+        height: 66.5vh;
+    }
+
+    #contact .col-form-label {
+        font-size: 12px;
+    }
+
+    .stay-text {
+        left: 30px;
+    }
 }
 
 @media screen and (max-width: 414px) {
+    #home .nav-padding {
+        padding: 20px 24px 0px 14px;
+    }
+
+
+    #top-nav {
+        padding: 15px 14px 2px 20px;
+    }
+
+        #top-nav .top-align {
+            text-align: center !important;
+        }
+
+        #top-nav .phone-number-text {
+            font-size: 15px;
+        }
+
+        #top-nav .email-text {
+            font-size: 15px;
+        }
+
+    #home .main-banner-desc {
+        font-size: 16px;
+    }
+
+    #home .main-banner-text {
+        letter-spacing: 0px;
+        font-size: 20px;
+    }
+
+    #home [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-family: Flaticon;
+        font-size: 14px;
+        padding: 4px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-prev {
+        left: 16px;
+        bottom: 520px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-next {
+        right: 16px;
+        bottom: 520px;
+    }
+
+    .btn-start {
+        width: 120px;
+        height: 50px;
+        font-size: 11px;
+    }
+
+    .btn-learn {
+        width: 120px;
+        height: 50px;
+        font-size: 11px;
+    }
+
+    #home .outer-circle {
+        width: 54px;
+        height: 54px;
+        bottom: -15px;
+        left: 42.5%;
+    }
+
+    #home .icon-bg-color {
+        width: 46px;
+        height: 46px;
+        line-height: 33px;
+        padding: 5px 16px 14px 16px;
+    }
+
+    #home .left-border {
+        border-left-width: 414px !important;
+    }
+
+    #home .right-border {
+        border-right-width: 414px !important;
+    }
+
+    #home .content-setting {
+        padding: 200px 0;
+    }
+
+    .what-text {
+        font-size: 20px;
+    }
+
+    .what-text-do-desc {
+        font-size: 16px;
+    }
+
+    .mt-81 {
+        margin-top: 0;
+    }
+
+    #what [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-size: 34px;
+        padding: 18px;
+    }
+
+    #what .heading-text {
+        font-size: 18px;
+    }
+
+    #what .what-text-desc {
+        font-size: 14px;
+    }
+
+    #history {
+        padding: 50px 20px;
+    }
+
+        #history .media-img-mt {
+            margin-top: 30px;
+        }
+
+        #history .images-setting {
+            margin-top: 27px;
+            margin-left: 124px;
+        }
+
+    #work {
+        padding: 40px 0;
+    }
+
+        #work .work-padding {
+            padding: 0px 35px;
+        }
+
+        #work .work-text {
+            font-size: 22px;
+        }
+
+        #work .work-heading {
+            font-size: 16px;
+        }
+
+        #work .media-work-mt {
+            margin-top: 30px;
+        }
+
+    #team {
+        padding: 60px 30px;
+    }
+
+        #team .professional-team-text {
+            font-size: 20px;
+        }
 }
 
 @media screen and (max-width: 411px) {
+    #home .left-border {
+        border-left-width: 411px !important;
+    }
+
+    #home .right-border {
+        border-right-width: 411px !important;
+    }
+
+    #home .outer-circle {
+        bottom: -11px;
+        left: 45.5%;
+    }
 }
 
 @media screen and (max-width: 375px) {
+    #home .left-border {
+        border-left-width: 375px !important;
+    }
+
+    #home .right-border {
+        border-right-width: 375px !important;
+    }
 }
 
 @media screen and (max-width: 360px) {
+    /*.row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }*/
+
+    #top-nav {
+        padding: 15px 11px 2px 11px;
+    }
+
+        #top-nav .email-text {
+            font-size: 13px;
+        }
+
+        #top-nav .phone-number-text {
+            font-size: 14px;
+        }
+
+    #home .main-banner-text {
+        font-size: 18px;
+    }
+
+    #history .history-bg-color {
+        padding: 80px 30px 115px 30px;
+    }
+
+    #history .images-setting {
+        margin-top: 27px;
+        margin-left: 88px;
+    }
+
+    #home .left-border {
+        border-left-width: 359px !important;
+    }
+
+    #home .right-border {
+        border-right-width: 359px !important;
+    }
+
+    #home .outer-circle {
+        bottom: -25px;
+        left: 43.5%;
+    }
+
+    #team {
+        padding: 40px 25px;
+    }
+
+    .footer-font {
+        font-size: 16px;
+    }
+
+    .stay-text {
+        left: -9px;
+    }
 }
 
 
@@ -1349,23 +2071,1099 @@ button:focus {
 @media screen and (max-width:1370px ) and (orientation: landscape) {
 }
 
+@media screen and (max-width: 1280px) and (orientation: landscape) {
+    #home .left-border {
+        border-left-width: 1280px !important;
+    }
+
+    #home .right-border {
+        border-right-width: 1280px !important;
+    }
+
+    #team .team-member-name {
+        font-size: 19px;
+    }
+
+    .media-height {
+        height: 87vh;
+    }
+}
+
 @media screen and (max-width: 1024px) and (orientation: landscape) {
+    /*#top-nav {
+        padding: 15px 0px 2px 94px;
+    }*/
+    #home .nav-padding {
+        padding: 20px 44px 0px 43px;
+    }
+
+    #top-nav {
+        padding: 14px 55px 2px 46px;
+    }
+
+    .phone-number-text {
+        font-size: 11px;
+    }
+
+    .email-text {
+        font-size: 11px;
+    }
+
+    .ml-5 {
+        margin-left: 1.6rem !important;
+    }
+
+    #home .left-border {
+        border-left-width: 1024px !important;
+    }
+
+    #home .right-border {
+        border-right-width: 1024px !important;
+    }
+
+    #home .main-banner-text {
+        letter-spacing: 4px;
+        font-size: 32px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 20px;
+    }
+
+    #home .navbar-nav .nav-link {
+        padding: 8px 8px 5px 8px;
+    }
+
+    .btn-start {
+        width: 180px;
+        height: 50px;
+        font-size: 15px;
+        line-height: 34px;
+    }
+
+    .btn-learn {
+        width: 180px;
+        height: 50px;
+        font-size: 15px;
+        line-height: 34px;
+    }
+
+    #home .borders {
+        top: 80%;
+    }
+
+    .what-text {
+        font-size: 22px;
+    }
+
+    .what-text-do-desc {
+        font-size: 18px;
+    }
+
+    #what .heading-text {
+        font-size: 20px;
+    }
+
+    #history {
+        padding: 100px 33px;
+    }
+
+        #history .history-bg-color {
+            padding: 80px 44px 115px 44px;
+        }
+
+        #history .images-setting {
+            margin-left: 4px;
+        }
+
+        #history .brief-text {
+            font-size: 36px;
+        }
+
+        #history .brief-desc {
+            font-size: 15px;
+        }
+
+    #work .work-text {
+        font-size: 26px;
+    }
+
+    #work .work-desc {
+        font-size: 17px;
+    }
+
+    #work .work-heading {
+        font-size: 18px;
+    }
+
+    #team .professional-team-text {
+        font-size: 26px;
+    }
+
+    #team .team-desc {
+        font-size: 16px;
+    }
+
+    #team {
+        padding: 70px 40px;
+    }
+
+        #team .team-member-name {
+            font-size: 16px;
+        }
+
+        #team .desgination-text {
+            font-size: 14px;
+        }
+
+        #team [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+            font-family: Flaticon;
+            font-size: 26px;
+        }
+
+    .btn-load-more {
+        width: 180px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    #contact .bg-contact-banner {
+        padding: 50px 41px;
+    }
+
+    .touch-text {
+        font-size: 26px;
+    }
+
+    .media-height {
+        height: 88.3vh;
+    }
+
+    .footer-font {
+        font-size: 18px;
+    }
+
+    .stay-text {
+        bottom: 13px;
+        left: 147px;
+    }
 }
 
 @media screen and (max-width: 823px) and (orientation: landscape) {
+    #top-nav {
+        padding: 15px 32px 2px 45px;
+    }
+
+    #home .active .nav-link::after {
+        content: '';
+        left: 45%;
+        width: 10%;
+    }
+
+    #home .nav-padding {
+        padding: 12px 17px 0px 17px;
+    }
+
+    .phone-number-text {
+        font-size: 12px;
+    }
+
+    .email-text {
+        font-size: 12px;
+    }
+
+    .ml-5 {
+        margin-left: 1.6rem !important;
+    }
+
+    #home .left-border {
+        border-left-width: 823px !important;
+    }
+
+    #home .right-border {
+        border-right-width: 823px !important;
+    }
+
+    #home .outer-circle {
+        bottom: -22px;
+        left: 46.5%;
+    }
+
+    #home .main-banner-text {
+        letter-spacing: 1px;
+        font-size: 30px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 20px;
+    }
+
+    #home [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        padding: 10px;
+    }
+
+    #home .content-setting {
+        padding: 250px 0;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-next {
+        bottom: 520px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-prev {
+        bottom: 520px;
+    }
+
+
+
+    .media-do-mt {
+        margin-top: 70px;
+    }
+
+    .media-ml-30 {
+        margin-left: 30%;
+    }
+
+    #history {
+        padding: 95px 90px;
+    }
+
+        #history .images-setting {
+            margin-left: 38px;
+        }
+
+    #work {
+        padding: 60px 0;
+    }
+
+    #team .professional-team-text {
+        font-size: 24px;
+    }
+
+    #team .team-desc {
+        font-size: 14px;
+    }
+
+    .mt-99 {
+        margin-top: 60px;
+    }
+
+    #team .team-member-name {
+        font-size: 20px;
+    }
+
+    #team .desgination-text {
+        font-size: 16px;
+    }
+
+    .media-height {
+        height: 165.8vh;
+    }
+
+    #contact .col-form-label {
+        font-size: 12px;
+    }
+
+    .stay-text {
+        left: 30px;
+    }
+}
+
+@media screen and (max-width: 812px) and (orientation: landscape) {
+    #home .left-border {
+        border-left-width: 812px !important;
+    }
+
+    #home .right-border {
+        border-right-width: 812px !important;
+    }
+
+    .media-height {
+        height: 181.8vh;
+    }
 }
 
 @media screen and (max-width: 740px) and (orientation: landscape) {
+    #top-nav {
+        padding: 15px 23px 14px 19px;
+    }
+
+        #top-nav .top-align {
+            text-align: center !important;
+        }
+
+    .media-ml-30 {
+        margin-left: 37%;
+    }
+
+    #top-nav .media-contact-ml {
+        margin-left: 27%;
+    }
+
+    #home .nav-padding {
+        padding: 12px 17px 0px 17px;
+    }
+
+    .phone-number-text {
+        font-size: 12px;
+    }
+
+    .email-text {
+        font-size: 12px;
+    }
+
+    .ml-5 {
+        margin-left: 1.6rem !important;
+    }
+
+    #home .left-border {
+        border-left-width: 740px !important;
+    }
+
+    #home .right-border {
+        border-right-width: 740px !important;
+    }
+
+    #home .outer-circle {
+        bottom: -22px;
+        left: 46.5%;
+    }
+
+    #home .main-banner-text {
+        letter-spacing: 1px;
+        font-size: 30px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 20px;
+    }
+
+    #home [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        padding: 10px;
+    }
+
+    #home .content-setting {
+        padding: 250px 0;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-next {
+        bottom: 520px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-prev {
+        bottom: 520px;
+    }
+
+    .media-do-mt {
+        margin-top: 70px;
+    }
+
+    .media-ml-30 {
+        margin-left: 37%;
+    }
+
+    #what [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-size: 36px;
+        padding: 25px;
+    }
+
+    #history {
+        padding: 95px 90px;
+    }
+
+        #history .media-img-mt {
+            margin-top: 30px;
+        }
+
+        #history .images-setting {
+            margin-left: 0px;
+            text-align: center;
+            margin-top: 0;
+        }
+
+    #work {
+        padding: 60px 0;
+    }
+
+        #work .media-work-mt {
+            margin-top: 30px;
+        }
+
+    #team {
+        padding: 70px 171px;
+    }
+
+        #team .professional-team-text {
+            font-size: 24px;
+        }
+
+        #team .team-desc {
+            font-size: 14px;
+        }
+
+        #team .media-card-width {
+            width: 24rem;
+        }
+
+    .mt-99 {
+        margin-top: 60px;
+    }
+
+    #team .team-member-name {
+        font-size: 20px;
+    }
+
+    #team .desgination-text {
+        font-size: 16px;
+    }
+
+    .media-height {
+        height: 178.8vh;
+    }
+
+    #contact .col-form-label {
+        font-size: 12px;
+    }
+
+    .stay-text {
+        left: 0px;
+    }
+
+    .p-0 {
+        padding: 0px 10px !important;
+    }
+
+    .media-text-align {
+        margin-left: 20%;
+        text-align: center !important;
+    }
 }
 
 @media screen and (max-width: 736px) and (orientation: landscape) {
+    #top-nav {
+        padding: 15px 23px 14px 19px;
+    }
+
+        #top-nav .top-align {
+            text-align: center !important;
+        }
+
+    .media-ml-30 {
+        margin-left: 37%;
+    }
+
+    #top-nav .media-contact-ml {
+        margin-left: 27%;
+    }
+
+    #home .nav-padding {
+        padding: 12px 17px 0px 17px;
+    }
+
+    .phone-number-text {
+        font-size: 12px;
+    }
+
+    .email-text {
+        font-size: 12px;
+    }
+
+    .ml-5 {
+        margin-left: 1.6rem !important;
+    }
+
+    #home .left-border {
+        border-left-width: 736px !important;
+    }
+
+    #home .right-border {
+        border-right-width: 736px !important;
+    }
+
+    #home .outer-circle {
+        bottom: -22px;
+        left: 46.5%;
+    }
+
+    #home .main-banner-text {
+        letter-spacing: 1px;
+        font-size: 30px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 20px;
+    }
+
+    #home [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        padding: 10px;
+    }
+
+    #home .content-setting {
+        padding: 250px 0;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-next {
+        bottom: 520px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-prev {
+        bottom: 520px;
+    }
+
+    .media-do-mt {
+        margin-top: 70px;
+    }
+
+    .media-ml-30 {
+        margin-left: 37%;
+    }
+
+    #what [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-size: 36px;
+        padding: 25px;
+    }
+
+    #history {
+        padding: 95px 90px;
+    }
+
+        #history .media-img-mt {
+            margin-top: 30px;
+        }
+
+        #history .images-setting {
+            margin-left: 0px;
+            text-align: center;
+        }
+
+    #work {
+        padding: 60px 0;
+    }
+
+        #work .media-work-mt {
+            margin-top: 30px;
+        }
+
+    #team {
+        padding: 70px 171px;
+    }
+
+        #team .professional-team-text {
+            font-size: 24px;
+        }
+
+        #team .team-desc {
+            font-size: 14px;
+        }
+
+        #team .media-card-width {
+            width: 24rem;
+        }
+
+    .mt-99 {
+        margin-top: 60px;
+    }
+
+    #team .team-member-name {
+        font-size: 20px;
+    }
+
+    #team .desgination-text {
+        font-size: 16px;
+    }
+
+    .media-height {
+        height: 178.8vh;
+    }
+
+    #contact .col-form-label {
+        font-size: 12px;
+    }
+
+    .stay-text {
+        left: 0px;
+    }
+
+    .p-0 {
+        padding: 0px 10px !important;
+    }
+
+    .media-text-align {
+        margin-left: 20%;
+        text-align: center !important;
+    }
 }
 
 @media screen and (max-width: 731px) and (orientation: landscape) {
+    #top-nav {
+        padding: 15px 23px 14px 19px;
+    }
+
+        #top-nav .top-align {
+            text-align: center !important;
+        }
+
+    .media-ml-30 {
+        margin-left: 37%;
+    }
+
+    #top-nav .media-contact-ml {
+        margin-left: 27%;
+    }
+
+    #home .nav-padding {
+        padding: 12px 17px 0px 17px;
+    }
+
+    .phone-number-text {
+        font-size: 12px;
+    }
+
+    .email-text {
+        font-size: 12px;
+    }
+
+    .ml-5 {
+        margin-left: 1.6rem !important;
+    }
+
+    #home .left-border {
+        border-left-width: 731px !important;
+    }
+
+    #home .right-border {
+        border-right-width: 731px !important;
+    }
+
+    #home .outer-circle {
+        bottom: -22px;
+        left: 46.5%;
+    }
+
+    #home .main-banner-text {
+        letter-spacing: 1px;
+        font-size: 30px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 20px;
+    }
+
+    #home [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        padding: 10px;
+    }
+
+    #home .content-setting {
+        padding: 250px 0;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-next {
+        bottom: 520px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-prev {
+        bottom: 520px;
+    }
+
+    .media-do-mt {
+        margin-top: 70px;
+    }
+
+    .media-ml-30 {
+        margin-left: 37%;
+    }
+
+    #what [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-size: 36px;
+        padding: 25px;
+    }
+
+    #history {
+        padding: 95px 90px;
+    }
+
+        #history .media-img-mt {
+            margin-top: 30px;
+        }
+
+        #history .images-setting {
+            margin-left: 0px;
+            text-align: center;
+        }
+
+    #work {
+        padding: 60px 0;
+    }
+
+        #work .media-work-mt {
+            margin-top: 30px;
+        }
+
+    #team {
+        padding: 70px 171px;
+    }
+
+        #team .professional-team-text {
+            font-size: 24px;
+        }
+
+        #team .team-desc {
+            font-size: 14px;
+        }
+
+        #team .media-card-width {
+            width: 24rem;
+        }
+
+    .mt-99 {
+        margin-top: 60px;
+    }
+
+    #team .team-member-name {
+        font-size: 20px;
+    }
+
+    #team .desgination-text {
+        font-size: 16px;
+    }
+
+    .media-height {
+        height: 178.8vh;
+    }
+
+    #contact .col-form-label {
+        font-size: 12px;
+    }
+
+    .stay-text {
+        left: 0px;
+    }
+
+    .p-0 {
+        padding: 0px 10px !important;
+    }
+
+    .media-text-align {
+        margin-left: 20%;
+        text-align: center !important;
+    }
 }
 
 @media screen and (max-width: 667px) and (orientation: landscape) {
+    #top-nav {
+        padding: 15px 23px 14px 19px;
+    }
+
+        #top-nav .top-align {
+            text-align: center !important;
+        }
+
+    .media-ml-30 {
+        margin-left: 37%;
+    }
+
+    #top-nav .media-contact-ml {
+        margin-left: 27%;
+    }
+
+    #home .nav-padding {
+        padding: 12px 17px 0px 17px;
+    }
+
+    .phone-number-text {
+        font-size: 12px;
+    }
+
+    .email-text {
+        font-size: 12px;
+    }
+
+    .ml-5 {
+        margin-left: 1.6rem !important;
+    }
+
+    #home .left-border {
+        border-left-width: 667px !important;
+    }
+
+    #home .right-border {
+        border-right-width: 667px !important;
+    }
+
+    #home .outer-circle {
+        bottom: -22px;
+        left: 45%;
+    }
+
+    #home .main-banner-text {
+        letter-spacing: 1px;
+        font-size: 30px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 20px;
+    }
+
+    #home [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        padding: 10px;
+    }
+
+    #home .content-setting {
+        padding: 250px 0;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-next {
+        bottom: 520px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-prev {
+        bottom: 520px;
+    }
+
+    .media-do-mt {
+        margin-top: 70px;
+    }
+
+    .media-ml-30 {
+        margin-left: 37%;
+    }
+
+    #what [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-size: 36px;
+        padding: 25px;
+    }
+
+    #history {
+        padding: 95px 90px;
+    }
+
+        #history .media-img-mt {
+            margin-top: 30px;
+        }
+
+        #history .images-setting {
+            margin-left: 0px;
+            text-align: center;
+        }
+
+    #work {
+        padding: 60px 0;
+    }
+
+        #work .media-work-mt {
+            margin-top: 30px;
+        }
+
+    #team {
+        padding: 70px 171px;
+    }
+
+        #team .professional-team-text {
+            font-size: 24px;
+        }
+
+        #team .team-desc {
+            font-size: 14px;
+        }
+
+        #team .media-card-width {
+            width: 22rem;
+        }
+
+    .mt-99 {
+        margin-top: 60px;
+    }
+
+    #team .team-member-name {
+        font-size: 20px;
+    }
+
+    #team .desgination-text {
+        font-size: 16px;
+    }
+
+    .media-height {
+        height: 178.8vh;
+    }
+
+    #contact .col-form-label {
+        font-size: 12px;
+    }
+
+    .stay-text {
+        left: 0px;
+    }
+
+    .p-0 {
+        padding: 0px 10px !important;
+    }
+
+    .media-text-align {
+        margin-left: 20%;
+        text-align: center !important;
+    }
+
+    .mt-81 {
+        margin-top: 0;
+    }
 }
 
 @media screen and (max-width: 640px) and (orientation: landscape) {
+    #top-nav {
+        padding: 15px 23px 14px 19px;
+    }
+
+        #top-nav .top-align {
+            text-align: center !important;
+        }
+
+    .media-ml-30 {
+        margin-left: 37%;
+    }
+
+    #top-nav .media-contact-ml {
+        margin-left: 27%;
+    }
+
+    #home .nav-padding {
+        padding: 12px 17px 0px 17px;
+    }
+
+    .phone-number-text {
+        font-size: 12px;
+    }
+
+    .email-text {
+        font-size: 12px;
+    }
+
+    .ml-5 {
+        margin-left: 1.6rem !important;
+    }
+
+    #home .left-border {
+        border-left-width: 640px !important;
+    }
+
+    #home .right-border {
+        border-right-width: 640px !important;
+    }
+
+    #home .outer-circle {
+        bottom: -22px;
+        left: 45%;
+    }
+
+    #home .main-banner-text {
+        letter-spacing: 1px;
+        font-size: 26px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 20px;
+    }
+
+    #home [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        padding: 10px;
+    }
+
+    #home .content-setting {
+        padding: 250px 0;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-next {
+        bottom: 520px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-prev {
+        bottom: 520px;
+    }
+
+    .media-do-mt {
+        margin-top: 70px;
+    }
+
+    .media-ml-30 {
+        margin-left: 37%;
+    }
+
+    #what [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-size: 36px;
+        padding: 25px;
+    }
+
+    #history {
+        padding: 95px 90px;
+    }
+
+        #history .media-img-mt {
+            margin-top: 30px;
+        }
+
+        #history .images-setting {
+            margin-top: 0px;
+            margin-left: 0;
+            text-align: center !important;
+        }
+
+    #work {
+        padding: 60px 0;
+    }
+
+        #work .media-work-mt {
+            margin-top: 30px;
+        }
+
+    #team {
+        padding: 60px 144px;
+    }
+
+        #team .professional-team-text {
+            font-size: 24px;
+        }
+
+        #team .team-desc {
+            font-size: 14px;
+        }
+
+        #team .media-card-width {
+            width: 22rem;
+        }
+
+    .mt-99 {
+        margin-top: 60px;
+    }
+
+    #team .team-member-name {
+        font-size: 20px;
+    }
+
+    #team .desgination-text {
+        font-size: 16px;
+    }
+
+    .media-height {
+        height: 178.8vh;
+    }
+
+    #contact .col-form-label {
+        font-size: 12px;
+    }
+
+    .stay-text {
+        left: 0px;
+    }
+
+    .p-0 {
+        padding: 0px 10px !important;
+    }
+
+    .media-text-align {
+        margin-left: 20%;
+        text-align: center !important;
+    }
+
+    .mt-81 {
+        margin-top: 0;
+    }
 }
