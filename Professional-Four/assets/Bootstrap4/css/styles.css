@@ -129,9 +129,7 @@ html, body {
 }
 
 
-#home .nav-bg-color {
-    background-color: transparent;
-}
+
 
 .sleep {
     padding: 15px 100px 15px 100px;
@@ -159,6 +157,7 @@ html, body {
 
 .nav-bg-color {
     background: #506a85 !important;
+    margin-top: 0 !important;
 }
 
 .nav-trans {
