@@ -218,10 +218,10 @@ $(function () {
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
         if (scroll >= 100) {
-            $("#home nav").addClass("fixed-top sleep nav-bg-color");
+            $("#home nav").addClass("sleep nav-bg-color");
 
         } else {
-            $("#home nav").removeClass("fixed-top sleep nav-bg-color");
+            $("#home nav").removeClass(" sleep nav-bg-color");
 
 
         }
