@@ -131,6 +131,7 @@ html, body {
 
 
 
+
 .sleep {
     padding: 15px 100px 15px 100px;
     transition: all .4s ease-in-out;
@@ -153,6 +154,10 @@ html, body {
 #my-nav-brand .navbar-brand {
     display: inline;
     margin-right: 0;
+}
+
+#home .margin-tops {
+    margin-top: 4rem;
 }
 
 .nav-bg-color {
@@ -1503,6 +1508,15 @@ button:focus {
         padding: 15px 32px 2px 45px;
     }
 
+    #home .outer-circle {
+        bottom: -20px;
+        left: 45.5%;
+    }
+
+    #home .content-setting {
+        padding: 330px 0 250px 0;
+    }
+
     #home .active .nav-link::after {
         content: '';
         left: 45%;
@@ -1547,9 +1561,7 @@ button:focus {
         padding: 10px;
     }
 
-    #home .content-setting {
-        padding: 250px 0;
-    }
+
 
     #home .owl-carousel .owl-nav button.owl-next {
         bottom: 520px;
@@ -1657,8 +1669,13 @@ button:focus {
         padding: 10px;
     }
 
+    #home .outer-circle {
+        bottom: -20px;
+        left: 45.5%;
+    }
+
     #home .content-setting {
-        padding: 250px 0;
+        padding: 330px 0 250px 0;
     }
 
     #home .owl-carousel .owl-nav button.owl-next {
@@ -1764,8 +1781,13 @@ button:focus {
         padding: 10px;
     }
 
+    #home .outer-circle {
+        bottom: -20px;
+        left: 45.5%;
+    }
+
     #home .content-setting {
-        padding: 250px 0;
+        padding: 330px 0 250px 0;
     }
 
     #home .owl-carousel .owl-nav button.owl-next {
@@ -1836,6 +1858,17 @@ button:focus {
         padding: 20px 24px 0px 14px;
     }
 
+    #home .margin-tops {
+        margin-top: 5.6rem;
+    }
+
+    #home .content-setting {
+        padding: 320px 0 200px 0;
+    }
+
+    .nav-bg-color {
+        margin-top: !important;
+    }
 
     #top-nav {
         padding: 15px 14px 2px 20px;
@@ -1912,9 +1945,7 @@ button:focus {
         border-right-width: 414px !important;
     }
 
-    #home .content-setting {
-        padding: 200px 0;
-    }
+
 
     .what-text {
         font-size: 20px;
@@ -1984,6 +2015,14 @@ button:focus {
 }
 
 @media screen and (max-width: 411px) {
+    #home .margin-tops {
+        margin-top: 5.6rem;
+    }
+
+    #home .content-setting {
+        padding: 320px 0 200px 0;
+    }
+
     #home .left-border {
         border-left-width: 411px !important;
     }
@@ -1994,7 +2033,7 @@ button:focus {
 
     #home .outer-circle {
         bottom: -11px;
-        left: 45.5%;
+        left: 42.5%;
     }
 }
 
@@ -2006,6 +2045,14 @@ button:focus {
     #home .right-border {
         border-right-width: 375px !important;
     }
+
+    #home .margin-tops {
+        margin-top: 5.6rem;
+    }
+
+    #home .content-setting {
+        padding: 320px 0 200px 0;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -2013,6 +2060,13 @@ button:focus {
         margin-left: 0 !important;
         margin-right: 0 !important;
     }*/
+    #home .margin-tops {
+        margin-top: 5.6rem;
+    }
+
+    #home .content-setting {
+        padding: 330px 0 200px 0;
+    }
 
     #top-nav {
         padding: 15px 11px 2px 11px;
@@ -2048,7 +2102,7 @@ button:focus {
     }
 
     #home .outer-circle {
-        bottom: -25px;
+        bottom: -11px;
         left: 43.5%;
     }
 
@@ -2253,6 +2307,10 @@ button:focus {
         padding: 15px 32px 2px 45px;
     }
 
+    #home .content-setting {
+        padding: 330px 0 250px 0;
+    }
+
     #home .active .nav-link::after {
         content: '';
         left: 45%;
@@ -2301,9 +2359,6 @@ button:focus {
         padding: 10px;
     }
 
-    #home .content-setting {
-        padding: 250px 0;
-    }
 
     #home .owl-carousel .owl-nav button.owl-next {
         bottom: 520px;
@@ -2387,9 +2442,17 @@ button:focus {
         padding: 15px 23px 14px 19px;
     }
 
-        #top-nav .top-align {
-            text-align: center !important;
-        }
+    #home .margin-tops {
+        margin-top: 5.6rem;
+    }
+
+    #home .content-setting {
+        padding: 330px 0 250px 0;
+    }
+
+    #top-nav .top-align {
+        text-align: center !important;
+    }
 
     .media-ml-30 {
         margin-left: 37%;
@@ -2441,9 +2504,6 @@ button:focus {
         padding: 10px;
     }
 
-    #home .content-setting {
-        padding: 250px 0;
-    }
 
     #home .owl-carousel .owl-nav button.owl-next {
         bottom: 520px;
@@ -2543,9 +2603,17 @@ button:focus {
         padding: 15px 23px 14px 19px;
     }
 
-        #top-nav .top-align {
-            text-align: center !important;
-        }
+    #home .margin-tops {
+        margin-top: 5.6rem;
+    }
+
+    #home .content-setting {
+        padding: 330px 0 250px 0;
+    }
+
+    #top-nav .top-align {
+        text-align: center !important;
+    }
 
     .media-ml-30 {
         margin-left: 37%;
@@ -2597,9 +2665,6 @@ button:focus {
         padding: 10px;
     }
 
-    #home .content-setting {
-        padding: 250px 0;
-    }
 
     #home .owl-carousel .owl-nav button.owl-next {
         bottom: 520px;
@@ -2698,9 +2763,17 @@ button:focus {
         padding: 15px 23px 14px 19px;
     }
 
-        #top-nav .top-align {
-            text-align: center !important;
-        }
+    #home .margin-tops {
+        margin-top: 5.6rem;
+    }
+
+    #home .content-setting {
+        padding: 330px 0 250px 0;
+    }
+
+    #top-nav .top-align {
+        text-align: center !important;
+    }
 
     .media-ml-30 {
         margin-left: 37%;
@@ -2752,9 +2825,7 @@ button:focus {
         padding: 10px;
     }
 
-    #home .content-setting {
-        padding: 250px 0;
-    }
+
 
     #home .owl-carousel .owl-nav button.owl-next {
         bottom: 520px;
@@ -2907,9 +2978,7 @@ button:focus {
         padding: 10px;
     }
 
-    #home .content-setting {
-        padding: 250px 0;
-    }
+
 
     #home .owl-carousel .owl-nav button.owl-next {
         bottom: 520px;
@@ -3066,9 +3135,7 @@ button:focus {
         padding: 10px;
     }
 
-    #home .content-setting {
-        padding: 250px 0;
-    }
+
 
     #home .owl-carousel .owl-nav button.owl-next {
         bottom: 520px;
